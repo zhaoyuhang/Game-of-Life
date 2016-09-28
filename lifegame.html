@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LifeGame</title>
+	<meta charset="utf-8">
+	<script src="fabric.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="lifegame.css">
+</head>
+<body>
+	<center>
+		<h2>Software Engineering：Conway's Game of Life</h2>
+		<div class ="panel">
+           	<div id="p1">
+	            size：<input id="lifeSize" type="text" value="50" >
+	            original percent：<input type="text" value="20" id="lifePercent">%&nbsp;&nbsp;&nbsp;&nbsp;
+	            lifes：<span id="remainLifes">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	            generations：<span id="generations">0</span>
+            </div>
+
+            <div id="p2">
+            	 <input class="button" type="button" value="start" onclick="javascript:restart()">
+            	 <input class="button" type="button" id = "pause" value="pause" onclick="javascript:pause()">
+            </div>
+        
+        </div>
+        <canvas id="canvas" width="602" height="602"></canvas>
+	</center>
+</body>
+	<script src="lifegame.js"></script>	
+</html>
