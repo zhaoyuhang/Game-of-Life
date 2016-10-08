@@ -1,0 +1,42 @@
+.panel
+{
+	margin:20px 50px 20px;
+	padding-bottom:10px;
+	border-bottom:1px solid #c1c1c1;
+	text-align:center;
+	width:800px
+}
+
+.button
+{
+	width:200px;
+}
+
+#p1
+{
+	height:40px
+}
+
+#lifeSize
+{
+	width:50px;
+	margin-right:20px
+}
+
+#lifePercent
+{
+	width:50px;
+	margin-right:20px
+}
+
+#remainLifes
+{
+	display:inline-block;
+	width:30px
+}
+
+#generations
+{
+	display:inline-block;
+	width:30px
+}
